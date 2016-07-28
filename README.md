@@ -1,13 +1,19 @@
 # CJDBM
+
 an DLL to use Mysql With C# project's
 
 # How to
-1- add the dll's to you project 
-2- include the class by adding 
+
+1- add the dll's to you project.
+
+2- include the class by adding .
+
       using MySql.Data.MySqlClient;
       using CJ_DBM;
-3- Make new database connection by calling the class cjdbm
+      
+3- Make new database connection by calling the class cjdbm.
     cjdbm obj = new cjdbm("ServerURL","Server_UserName","Server_Password","Dadabase_Name");
+    
 4- The class Function's
     
     1- Open() 

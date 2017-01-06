@@ -6,7 +6,7 @@
           using MySql.Data.MySqlClient
           using CJ_DBM
 3- قم بعمل ريفرنس للكلاس بالطريقة التالية 
-cjdbm obj = new cjdbm("ServerURL","Server_UserName","Server_Password","Dadabase_Name");
+cjdbm obj = new cjdbm("ServerURL","Server_UserName","Server_Password","Database_Name");
 4- طريقة استدعاء دوال الكلاس وعملها
      1- داله Open
          هذه الدالة لفتح اتصال مع قواعد البيانات ويجب استدعائها قبل اي دالة اخرا

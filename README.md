@@ -11,8 +11,9 @@ an DLL to use Mysql With C# project's
       using MySql.Data.MySqlClient;
       using CJ_DBM;
       
-3- Make new database connection by calling the class cjdbm.
-    cjdbm obj = new cjdbm("ServerURL","Server_UserName","Server_Password","Dadabase_Name");
+3- Make new database connection by calling the class cjdbm
+
+    cjdbm obj = new cjdbm("ServerURL","Server_UserName","Server_Password","Database_Name");
     
 4- The class Function's
     
